@@ -1,0 +1,56 @@
+.footer-container{
+    background-image: linear-gradient(to  right bottom, black, rgb(178, 177, 177));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.footer-link{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 50vw;  
+    align-items: center;
+}
+
+.fb-icon{
+    color: black;
+}
+
+.fb-icon:hover{
+    color: blue;
+}
+
+.ig-icon{
+    color: black;
+}
+
+.ig-icon:hoveR{
+    background-image: linear-gradient(rgb(254,218,117), rgb(250,126,30), rgb(214,41,118), rgb(150,47,191), rgb(79,91,213));
+}
+
+.lin-icon{
+    color: black;
+}
+
+.lin-icon:hover{
+    color: blue;
+}
+
+.yt-icon{
+    color: black;
+}
+
+.yt-icon:hover{
+    color: red;
+}
+
+.mail-icon{
+    color: black;
+}
+
+.mail-icon:hover{
+    color: #1E88E5;
+}

@@ -1,0 +1,98 @@
+.about-container {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  /* border: 2px solid aquamarine; */
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.about-image {
+  height: 100%;
+  width: 100%;
+}
+
+.details {
+  height: 100%;
+  width: 100%;
+  color: white;
+  /* border: 5px solid red; */
+  background-color: rgb(58, 60, 62);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to left, black, white);
+}
+
+
+
+.service {
+  display: flex;
+  list-style: none;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-content: center;
+}
+
+.visit {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.service-num {
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: aqua;
+  color: white;
+}
+
+.visit-num {
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+
+.info-num {
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: yellowgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.service-text {
+  text-align: center;
+}
+
+.visit-text {
+  text-align: center;
+}
+
+.info-text {
+  text-align: center;
+}

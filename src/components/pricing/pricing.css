@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.price-container{
+    border: 2px solid maroon;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading{
+    font-family: Racing Sans One;
+}

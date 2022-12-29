@@ -1,0 +1,66 @@
+.container {
+  position: relative;
+}
+
+.homepage {
+  position: relative;
+  text-align: center;
+}
+
+.bg-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.start-button {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  width: 10rem;
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.start-button:hover {
+  background-color: rgb(131, 129, 129);
+  font-weight: bold;
+}
+
+.text-over-image-htag {
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 40rem;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  background-color: none;
+}
+
+.text-over-image-ptag {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 25rem;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  background-color: none;
+}
